@@ -31,9 +31,11 @@ defmodule Shallowblue.Web do
       use Phoenix.Controller
 
       alias Shallowblue.Repo
+      alias Guardian.Plug.EnsureAuthenticated
+      alias Guardian.Plug.EnsurePermissions
+ 
       import Ecto
       import Ecto.Query
-
       import Shallowblue.Router.Helpers
       import Shallowblue.Gettext
     end
@@ -66,9 +68,11 @@ defmodule Shallowblue.Web do
       use Phoenix.Channel
 
       alias Shallowblue.Repo
+
       import Ecto
       import Ecto.Query
       import Shallowblue.Gettext
+      import Guardian.Phoenix.Socket
     end
   end
 
