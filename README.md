@@ -1,15 +1,8 @@
 # Shallowblue
 
-To start your Phoenix app:
+This is about as standard as a Pheonix/Ecto stack with Channels as I can imagine.  Guardian was added to secure the RESTful API and channels.
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
-  * Install Node.js dependencies with `npm install`
-  * Start Phoenix endpoint with `mix phoenix.server`
-
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
+This was my fist Elixir app, finally, after having been doing Erlang since before it was fashionable.  No, seriously, I think there were only a handful of us in Chicago when I started on Erlang and people around me thought that I was nuts back then.  Now today, check out how cool Erlang has become!  WhatsApp sold for B!LL!0NZ to Facebook!  And, yeah, I am still nuts.  ;-) 
 
 ## Learn more
 
