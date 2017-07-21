@@ -6,6 +6,8 @@ The name of the project was inspired by IBM's Deep Blue project.  That is a fair
 
 This was my fist Elixir app, finally, after having been doing Erlang since before it was fashionable.  No, seriously, I think there were only a handful of us in Chicago when I started on Erlang and people around me thought that I was nuts back then.  Now today, check out how cool Erlang has become!  WhatsApp sold for B!LL!0NZ to Facebook!  And, yeah, I am still nuts.  ;-) 
 
+Some time between then and now I wrote a Neuron simulator in Erlang.  I had wanted it to become a building block for developing and studying artificial brains.  If I get some more free time I may integrate that with this project and see where it takes me.  See https://github.com/enewhuis/neurlang if you're curious.
+
 ## Learn more
 
   * Official website: http://www.phoenixframework.org/
